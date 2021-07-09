@@ -73,7 +73,7 @@ clear: both;
     margin: auto;
 }
 #snd{
-    height: 36px; 
+    height: 35px; 
     border-bottom-right-radius: 20px;
     width: 57px;
     background-color: rgb(12, 236, 31);
@@ -107,8 +107,8 @@ h4{
     
 }
 .recieve{
-    background-color: black;
-    color: chartreuse;
+    background-color: rgb(1, 71, 36);
+    color: rgb(255, 255, 255);
     border-bottom-left-radius: 20px;
     border-bottom-right-radius: 20px;
     border-top-right-radius: 20px;
@@ -147,13 +147,54 @@ h4{
 
 
 }
-/* @media(max-width:412px){
+
+ .bodyColor{
+     background-image: linear-gradient(black,blue);
+ }
+ 
+.a_D{
+    color:rgb(255, 255, 255);
+ 
+}
+.a_D:hover{
+    color:rgb(0, 240, 0);
+}
+.message-body_D{
+    background-color: rgb(0, 0, 0);
+}
+.snd_D{
+    background-image:linear-gradient(black,blue);
+    color:white;
+    cursor: pointer;
+}
+
+@media(max-width:948px){
     .message-body{
-        width: 855px;
-        height: 600px;
+        width: 393px;
+        height: 500px;
     }
-    #txt{
-        
-        width:822px ;
+    .recieve{
+     background-color: black;
+     color: chartreuse;
+     border-bottom-left-radius: 20px;
+     border-bottom-right-radius: 20px;
+     border-top-right-radius: 20px;
+     padding: 10px;
+     /* width: 100px; */
     }
-} */
+    .send{
+     background-color: rgb(29, 71, 5);
+     color: chartreuse;
+     border-bottom-left-radius: 20px;
+     border-bottom-right-radius: 20px;
+     border-top-right-radius: 20px;
+     padding: 10px;
+     /* width: 100px; */
+    }
+     #txt{
+         
+         width:360px ;
+         
+     }
+ 
+}
