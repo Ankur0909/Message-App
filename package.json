@@ -4,9 +4,9 @@
   "description": "Runtime message app",
   "main": "index.js",
   "scripts": {
-    "nilu": "nodemon server"
+    "serve": "nodemon server"
   },
-  "author": "Nilkantha",
+  "author": "Ankur",
   "license": "ISC",
   "dependencies": {
     "express": "^4.17.1",

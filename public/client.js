@@ -24,9 +24,9 @@ form.addEventListener('submit',(e)=>{
    
 })
 let Name;
-// do{
-//    Name= prompt('Please Enter Your Name:')
-// }while(!Name)
+do{
+   Name= prompt('Please Enter Your Name:')
+}while(!Name)
 socket.emit('new-user-joined',Name)
 socket.on('user-joined', Name=>{
    
